@@ -2103,6 +2103,11 @@
   "resolved" "https://registry.npmjs.org/same-origin/-/same-origin-0.1.1.tgz"
   "version" "0.1.1"
 
+"sanity@^2.33.2":
+  "integrity" "sha512-Bt4XzRbd/vxAAglEui4hYHcRXL9T+/yBWTK2EF6qLdGIV+lSd5i403I5M91C7H9o/k6EhaIDRSyNghwf/gh0/Q=="
+  "resolved" "https://registry.npmjs.org/sanity/-/sanity-2.33.2.tgz"
+  "version" "2.33.2"
+
 "scheduler@^0.20.2":
   "integrity" "sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ=="
   "resolved" "https://registry.npmjs.org/scheduler/-/scheduler-0.20.2.tgz"
