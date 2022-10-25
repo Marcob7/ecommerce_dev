@@ -1,9 +1,9 @@
 import React from 'react';
 import Head from 'next/head';
-import Navbar from './Navbar';
-import Footer from './Footer';
+import Navbar from './navbar';
+import Footer from './footer';
 
-const Layout = ({ children }) => {
+const layout = ({ children }) => {
   return (
     <div className='layout'>
       <Head>
@@ -25,4 +25,4 @@ const Layout = ({ children }) => {
   )
 }
 
-export default Layout
+export default layout

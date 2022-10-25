@@ -1,0 +1,7 @@
+export{ default as footer } from './footer'
+export{ default as footerBanner } from './footerBanner'
+export{ default as cart } from './cart'
+export{ default as navbar } from './navbar'
+export{ default as heroBanner } from './heroBanner'
+export{ default as layout } from './layout'
+export{ default as product } from './product' 

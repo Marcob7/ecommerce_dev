@@ -3,7 +3,7 @@ import { client } from '../lib/client';
 import { Product, FooterBanner, HeroBanner } from '../components';
 
 
-const Home = ({ products, bannerData }) => {
+const home = ({ products, bannerData }) => {
   return (
    <>
    <div className='about-heading'>
@@ -14,7 +14,7 @@ const Home = ({ products, bannerData }) => {
    <div className='products-heading'>
     <h2>Best received products</h2>
     <p>We are the shop with stuff you want, but never buy.</p>
-   </div>
+   </div> 
    
    <div className='products-container'>
     {products?.map((product) => <Product key={product.id} product={product}/>)
@@ -39,4 +39,4 @@ export const getServerSideProps = async () => {
   }
 }
 
-export default Home 
+export default home 

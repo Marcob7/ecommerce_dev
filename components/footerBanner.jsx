@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { urlFor } from '../lib/client'
-const FooterBanner = ({ FooterBanner: { discount, largeText1, largeText2, saleTime, desc, smallText, midText, product, buttonText, image} }) => {
+const footerBanner = ({ FooterBanner: { discount, largeText1, largeText2, saleTime, desc, smallText, midText, product, buttonText, image} }) => {
   return (
     <div className='footer-banner-container'>
       <div className='banner-desc'>
@@ -16,7 +16,7 @@ const FooterBanner = ({ FooterBanner: { discount, largeText1, largeText2, saleTi
         <p>{smallText}</p>
        <h3>{midText}</h3>
        <p>{desc}</p>
-       <Link href={'/product/${product}'}>
+       <Link href={`/product/${product}`}>
         <button type="button">
           {buttonText}
         </button> 
@@ -32,4 +32,4 @@ const FooterBanner = ({ FooterBanner: { discount, largeText1, largeText2, saleTi
   )
 }
 
-export default FooterBanner
+export default footerBanner

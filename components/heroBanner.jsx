@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 import { urlFor } from '../lib/client';
 
-const HeroBanner = ({ heroBanner }) => {
+const heroBanner = ({ heroBanner }) => {
   return (
     <div className="hero-banner-container">
       <div>
@@ -26,4 +26,4 @@ const HeroBanner = ({ heroBanner }) => {
   )
 }
 
-export default HeroBanner
+export default heroBanner
