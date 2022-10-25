@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiFillInstagram, AiOutlineTwitter } from 'react-icons/ai'
 
-const footer = () => {
+const Footer = () => {
   return (
     <div className='footer-container'>
       <p>2022 Mystery Gift For you. All rights reserved.</p>
@@ -13,4 +13,4 @@ const footer = () => {
   )
 } 
 
-export default footer
+export default Footer

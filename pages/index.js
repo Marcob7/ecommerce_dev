@@ -1,9 +1,9 @@
 import React from 'react';
 import { client } from '../lib/client';
-import { Product, FooterBanner, HeroBanner } from '../components';
+import { Product, FooterBanner, HeroBanner } from '../components/Index';
 
 
-const home = ({ products, bannerData }) => {
+const Home = ({ products, bannerData }) => {
   return (
    <>
    <div className='about-heading'>
@@ -14,7 +14,8 @@ const home = ({ products, bannerData }) => {
    <div className='products-heading'>
     <h2>Best received products</h2>
     <p>We are the shop with stuff you want, but never buy.</p>
-   </div> 
+   </div>
+   
    
    <div className='products-container'>
     {products?.map((product) => <Product key={product.id} product={product}/>)
@@ -36,7 +37,7 @@ export const getServerSideProps = async () => {
 
   return {
     props: { products, bannerData}
-  }
+  } 
 }
 
-export default home 
+export default Home 

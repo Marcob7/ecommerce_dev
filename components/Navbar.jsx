@@ -5,7 +5,7 @@ import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { Cart } from '.';
 import { useStateContext} from '../context/StateContext'
  
-const navbar = () => {
+const Navbar = () => {
   const { showCart, setShowCart, totalQuantities } = useStateContext();
   return (
     <div className='navbar-container'>
@@ -23,4 +23,4 @@ const navbar = () => {
   )
 } 
 
-export default navbar
+export default Navbar
