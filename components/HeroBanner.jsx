@@ -21,7 +21,7 @@ const HeroBanner = ({ HeroBanner }) => {
             <p>{HeroBanner.desc}</p>
           </div>
         </div>
-      </div> 
+      </div>  
     </div>
   )
 }
