@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 
-import { Cart } from './iIndex'
+import { Cart } from './index'
 import { useStateContext} from '../context/StateContext'
  
 const Navbar = () => {
@@ -21,6 +21,6 @@ const Navbar = () => {
     {showCart && <Cart />}
     </div>
   )
-} 
+}  
 
 export default Navbar
